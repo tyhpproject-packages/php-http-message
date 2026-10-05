@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/php-http-message",
+    "description": "Tyhp type definitions for php-http/message 1.16.2.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "1.16.2",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/php-http-message-impl": "~1.16.2.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/php-http-message-impl"
+        }
+    }
+}
